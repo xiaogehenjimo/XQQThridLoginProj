@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67C6204F1E1B4CF300850B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6204E1E1B4CF300850B5D /* main.m */; };
+		67C620521E1B4CF300850B5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C620511E1B4CF300850B5D /* AppDelegate.m */; };
+		67C6205A1E1B4CF300850B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C620591E1B4CF300850B5D /* Assets.xcassets */; };
+		67C620661E1B4D0A00850B5D /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C620651E1B4D0A00850B5D /* mainViewController.m */; };
+		67C6206B1E1B705C00850B5D /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 67C620691E1B705C00850B5D /* TencentOpenApi_IOS_Bundle.bundle */; };
+		67C6206C1E1B705C00850B5D /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C6206A1E1B705C00850B5D /* TencentOpenAPI.framework */; };
+		67C6206F1E1B709000850B5D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C6206E1E1B709000850B5D /* Security.framework */; };
+		67C620711E1B709D00850B5D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C620701E1B709D00850B5D /* libiconv.tbd */; };
+		67C620731E1B70A700850B5D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C620721E1B70A700850B5D /* SystemConfiguration.framework */; };
+		67C620751E1B70AF00850B5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C620741E1B70AF00850B5D /* CoreGraphics.framework */; };
+		67C620771E1B70BA00850B5D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C620761E1B70BA00850B5D /* libsqlite3.tbd */; };
+		67C620791E1B70C200850B5D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C620781E1B70C200850B5D /* CoreTelephony.framework */; };
+		67C6207B1E1B70CB00850B5D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C6207A1E1B70CB00850B5D /* libstdc++.tbd */; };
+		67C6207D1E1B70D500850B5D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C6207C1E1B70D500850B5D /* libz.tbd */; };
+		67C620841E1B7C5000850B5D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C6207F1E1B7C5000850B5D /* libWeChatSDK.a */; };
+		67C620851E1B7C5000850B5D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 67C620801E1B7C5000850B5D /* README.txt */; };
+		67C620881E1B801700850B5D /* XQQThridLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C620871E1B801700850B5D /* XQQThridLoginTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67C6204A1E1B4CF300850B5D /* XQQThridLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQQThridLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C6204E1E1B4CF300850B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67C620501E1B4CF300850B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67C620511E1B4CF300850B5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67C620591E1B4CF300850B5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67C6205E1E1B4CF300850B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C620641E1B4D0A00850B5D /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		67C620651E1B4D0A00850B5D /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		67C620691E1B705C00850B5D /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		67C6206A1E1B705C00850B5D /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		67C6206E1E1B709000850B5D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		67C620701E1B709D00850B5D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		67C620721E1B70A700850B5D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		67C620741E1B70AF00850B5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67C620761E1B70BA00850B5D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		67C620781E1B70C200850B5D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		67C6207A1E1B70CB00850B5D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		67C6207C1E1B70D500850B5D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		67C6207F1E1B7C5000850B5D /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		67C620801E1B7C5000850B5D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		67C620811E1B7C5000850B5D /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		67C620821E1B7C5000850B5D /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		67C620831E1B7C5000850B5D /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		67C620861E1B801700850B5D /* XQQThridLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQThridLoginTool.h; sourceTree = "<group>"; };
+		67C620871E1B801700850B5D /* XQQThridLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQThridLoginTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67C620471E1B4CF300850B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C6207D1E1B70D500850B5D /* libz.tbd in Frameworks */,
+				67C6207B1E1B70CB00850B5D /* libstdc++.tbd in Frameworks */,
+				67C620791E1B70C200850B5D /* CoreTelephony.framework in Frameworks */,
+				67C620771E1B70BA00850B5D /* libsqlite3.tbd in Frameworks */,
+				67C620841E1B7C5000850B5D /* libWeChatSDK.a in Frameworks */,
+				67C620751E1B70AF00850B5D /* CoreGraphics.framework in Frameworks */,
+				67C620731E1B70A700850B5D /* SystemConfiguration.framework in Frameworks */,
+				67C620711E1B709D00850B5D /* libiconv.tbd in Frameworks */,
+				67C6206F1E1B709000850B5D /* Security.framework in Frameworks */,
+				67C6206C1E1B705C00850B5D /* TencentOpenAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67C620411E1B4CF300850B5D = {
+			isa = PBXGroup;
+			children = (
+				67C6207E1E1B7C5000850B5D /* OpenSDK1.7.5 */,
+				67C6204C1E1B4CF300850B5D /* XQQThridLogin */,
+				67C6204B1E1B4CF300850B5D /* Products */,
+				67C6206D1E1B709000850B5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67C6204B1E1B4CF300850B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67C6204A1E1B4CF300850B5D /* XQQThridLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67C6204C1E1B4CF300850B5D /* XQQThridLogin */ = {
+			isa = PBXGroup;
+			children = (
+				67C620691E1B705C00850B5D /* TencentOpenApi_IOS_Bundle.bundle */,
+				67C6206A1E1B705C00850B5D /* TencentOpenAPI.framework */,
+				67C620501E1B4CF300850B5D /* AppDelegate.h */,
+				67C620511E1B4CF300850B5D /* AppDelegate.m */,
+				67C620641E1B4D0A00850B5D /* mainViewController.h */,
+				67C620651E1B4D0A00850B5D /* mainViewController.m */,
+				67C620861E1B801700850B5D /* XQQThridLoginTool.h */,
+				67C620871E1B801700850B5D /* XQQThridLoginTool.m */,
+				67C6204D1E1B4CF300850B5D /* Supporting Files */,
+			);
+			path = XQQThridLogin;
+			sourceTree = "<group>";
+		};
+		67C6204D1E1B4CF300850B5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67C620591E1B4CF300850B5D /* Assets.xcassets */,
+				67C6205E1E1B4CF300850B5D /* Info.plist */,
+				67C6204E1E1B4CF300850B5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67C6206D1E1B709000850B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67C6207C1E1B70D500850B5D /* libz.tbd */,
+				67C6207A1E1B70CB00850B5D /* libstdc++.tbd */,
+				67C620781E1B70C200850B5D /* CoreTelephony.framework */,
+				67C620761E1B70BA00850B5D /* libsqlite3.tbd */,
+				67C620741E1B70AF00850B5D /* CoreGraphics.framework */,
+				67C620721E1B70A700850B5D /* SystemConfiguration.framework */,
+				67C620701E1B709D00850B5D /* libiconv.tbd */,
+				67C6206E1E1B709000850B5D /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67C6207E1E1B7C5000850B5D /* OpenSDK1.7.5 */ = {
+			isa = PBXGroup;
+			children = (
+				67C6207F1E1B7C5000850B5D /* libWeChatSDK.a */,
+				67C620801E1B7C5000850B5D /* README.txt */,
+				67C620811E1B7C5000850B5D /* WechatAuthSDK.h */,
+				67C620821E1B7C5000850B5D /* WXApi.h */,
+				67C620831E1B7C5000850B5D /* WXApiObject.h */,
+			);
+			path = OpenSDK1.7.5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67C620491E1B4CF300850B5D /* XQQThridLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C620611E1B4CF300850B5D /* Build configuration list for PBXNativeTarget "XQQThridLogin" */;
+			buildPhases = (
+				67C620461E1B4CF300850B5D /* Sources */,
+				67C620471E1B4CF300850B5D /* Frameworks */,
+				67C620481E1B4CF300850B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XQQThridLogin;
+			productName = XQQThridLogin;
+			productReference = 67C6204A1E1B4CF300850B5D /* XQQThridLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67C620421E1B4CF300850B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = UIP;
+				TargetAttributes = {
+					67C620491E1B4CF300850B5D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DXV95ACF77;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 67C620451E1B4CF300850B5D /* Build configuration list for PBXProject "XQQThridLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67C620411E1B4CF300850B5D;
+			productRefGroup = 67C6204B1E1B4CF300850B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67C620491E1B4CF300850B5D /* XQQThridLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67C620481E1B4CF300850B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C6206B1E1B705C00850B5D /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				67C620851E1B7C5000850B5D /* README.txt in Resources */,
+				67C6205A1E1B4CF300850B5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67C620461E1B4CF300850B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C620661E1B4D0A00850B5D /* mainViewController.m in Sources */,
+				67C620521E1B4CF300850B5D /* AppDelegate.m in Sources */,
+				67C620881E1B801700850B5D /* XQQThridLoginTool.m in Sources */,
+				67C6204F1E1B4CF300850B5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67C6205F1E1B4CF300850B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67C620601E1B4CF300850B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67C620621E1B4CF300850B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DXV95ACF77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XQQThridLogin",
+				);
+				INFOPLIST_FILE = XQQThridLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenSDK1.7.5",
+				);
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = UIP.XQQThridLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67C620631E1B4CF300850B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DXV95ACF77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XQQThridLogin",
+				);
+				INFOPLIST_FILE = XQQThridLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenSDK1.7.5",
+				);
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = UIP.XQQThridLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67C620451E1B4CF300850B5D /* Build configuration list for PBXProject "XQQThridLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C6205F1E1B4CF300850B5D /* Debug */,
+				67C620601E1B4CF300850B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C620611E1B4CF300850B5D /* Build configuration list for PBXNativeTarget "XQQThridLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C620621E1B4CF300850B5D /* Debug */,
+				67C620631E1B4CF300850B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67C620421E1B4CF300850B5D /* Project object */;
+}
